@@ -1,0 +1,31 @@
+﻿.hidden {
+    display: none;
+}
+
+#custom-alert {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #111;
+    color: #fff;
+    font-family: "Segoe UI", sans-serif;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#custom-alert button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #444;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#custom-alert button:hover {
+    background-color: #666;
+}

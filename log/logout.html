@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DiscretFiles - Log On</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="logout_styles.css">
+</head>
+<body>
+  <!-- <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div> -->
+
+  <header class="topbar">
+    <div class="brand">
+      <!-- <span class="brand-mark"></span> -->
+      <h1>DiscretFiles</h1>
+    </div>
+    <div class="topbar-actions">
+      <a class="topbar-btn" href="index.html">
+        <i class="fa-solid fa-arrow-left"></i>
+        Volver
+      </a>
+      <a class="topbar-btn" href="login.html">
+        <i class="fa-solid fa-arrow-right-from-bracket"></i>
+        Log In
+      </a>
+    </div>
+  </header>
+
+  <main class="panel-wrap">
+    <section class="panel">
+      <div class="panel-head">
+        <p class="pill">New user</p>
+        <h2>Create your account for free</h2>
+        <p class="panel-note">Complete the form to create your account.</p>
+      </div>
+
+      <form class="form" autocomplete="off">
+        <div class="field">
+          <label for="logon-user">Username</label>
+          <input id="logon-user" type="text" placeholder="Username" required>
+        </div>
+
+        <div class="field">
+          <label for="logon-email">E-Mail</label>
+          <input id="logon-email" type="email" placeholder="mail@example.com" required>
+        </div>
+
+        <div class="field">
+          <label for="logon-pass">Password</label>
+          <input id="logon-pass" type="password" placeholder="Create a password" required>
+        </div>
+
+        <label class="checkbox">
+          <input type="checkbox" required>
+          <span>I accept termns and conditions</span>
+        </label>
+
+        <button class="primary" type="submit">Crear cuenta</button>
+      </form>
+    </section>
+
+    <section class="side-info">
+      <div class="info-card">
+        <i class="fa-solid fa-user-shield"></i>
+        <h3>Privacidad primero</h3>
+        <p>Tus datos se protegen con cifrado y autenticacion segura.</p>
+      </div>
+      <!-- <div class="info-card">
+        <i class="fa-solid fa-database"></i>
+        <h3>Acceso rapido</h3>
+        <p>Sincroniza tu contenido y entra desde cualquier dispositivo.</p>
+      </div> -->
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 DiscretFiles. All rights reserved.</p>
+  </footer>
+</body>
+</html>

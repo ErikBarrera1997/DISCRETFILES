@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MP3DISCRET</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/audio_menu.css">
+</head>
+<body>
+    <header>
+        <h1>MP3DISCRET</h1>
+    </header>
+
+    <main>
+        <section class="search-section">
+            <input type="text" id="searchInput" placeholder="Insert name or artist">
+            <button onclick="searchAudio()">Search</button>
+             <div id="loadingSpinner" style="display: none; text-align: center; margin-top: 10px;">
+                 <div class="spinner"></div>
+            </div>
+        </section>
+
+        <section id="results">
+            <h2>Results</h2>
+            <ul id="resultsList"></ul>
+        </section>
+    </main>
+
+
+    <script src="js/main_menu.js"></script>
+</body>
+</html>
