@@ -1,4 +1,4 @@
-package com.api.usersservice.controllers;
+package com.api.romsdownload.controllers;
 
 import java.util.List;
 
@@ -11,26 +11,26 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.api.usersservice.entity.Entity_class_userMongo;
-import com.api.usersservice.service.User_service_mongo;
+import com.api.romsdownload.entity.Entity_class_romMongo;
+import com.api.romsdownload.service.Roms_service_mongo;
 
 @RestController
-@RequestMapping("/service/users")
+@RequestMapping("/service/roms")
 @CrossOrigin(origins = {"http://localhost", "http://127.0.0.1:5500"})
-public class User_controller_mongo {
+public class Roms_controller_mongo {
 
     @Autowired
-    private User_service_mongo userService;
+    private Roms_service_mongo romsService;
 
     @GetMapping("/all")
-    public ResponseEntity<?> getAllUsers() {
-        List<Entity_class_userMongo> results = userService.findAll();
+    public ResponseEntity<?> getAllRoms() {
+        List<Entity_class_romMongo> results = romsService.findAll();
         return ResponseEntity.ok(results);
     }
 
     @PostMapping("/create")
-    public ResponseEntity<?> createUser(@RequestBody Entity_class_userMongo user) {
-        Entity_class_userMongo created = userService.save(user);
+    public ResponseEntity<?> createRom(@RequestBody Entity_class_romMongo rom) {
+        Entity_class_romMongo created = romsService.save(rom);
         return ResponseEntity.ok(created);
     }
 }

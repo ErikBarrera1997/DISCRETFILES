@@ -1,3 +1,9 @@
-[submodule "apimp3api"]
-	path = apimp3api
+[submodule "mp3api"]
+	path = api/mp3api
 	url = https://github.com/ErikBarrera1997/API-REST-MP3DOWNLOAD.git
+[submodule "api/usersapi/SPRING-BOOT-API-USERS"]
+	path = api/usersapi/SPRING-BOOT-API-USERS
+	url = https://github.com/ErikBarrera1997/SPRING-BOOT-API-USERS.git
+[submodule "api/SPRING-BOOT-API-USERS"]
+	path = api/SPRING-BOOT-API-USERS
+	url = https://github.com/ErikBarrera1997/SPRING-BOOT-API-USERS.git
