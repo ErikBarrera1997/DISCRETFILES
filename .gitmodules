@@ -7,3 +7,6 @@
 [submodule "api/SPRING-BOOT-API-USERS"]
 	path = api/SPRING-BOOT-API-USERS
 	url = https://github.com/ErikBarrera1997/SPRING-BOOT-API-USERS.git
+[submodule "api/PDF-SPRING-BOOT-API"]
+	path = api/PDF-SPRING-BOOT-API
+	url = https://github.com/ErikBarrera1997/PDF-SPRING-BOOT-API.git

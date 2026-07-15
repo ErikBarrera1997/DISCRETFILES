@@ -1,4 +1,7 @@
 node_modules/
 **/node_modules/
+# Local environment files may contain credentials.
 .env
+.env.*
+*.env
 pdfdiscret/scripts/*.json

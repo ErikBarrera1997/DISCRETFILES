@@ -1,0 +1,10 @@
+# Local scripts with environment variables
+scripts/
+
+# Node modules
+node_modules/
+package-lock.json
+
+# OS files
+.DS_Store
+Thumbs.db
